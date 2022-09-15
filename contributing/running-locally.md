@@ -62,10 +62,7 @@ which will create the database (file) for you.
 To start the initialization run the following command:
 
 ```bash
-# From within the /api folder
-pnpm cli bootstrap
-
-# For SQLite you need to run the command in the 'api' context (to ensure the database file is created in the right directory)
+# Run the command in the 'api' context (to ensure the database file is created in the right directory)
 pnpm --dir api cli bootstrap
 ```
 
